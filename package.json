@@ -1,0 +1,23 @@
+{
+  "name": "forex-project",
+  "main": "server.js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.4",
+    "monk": "^7.1.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
